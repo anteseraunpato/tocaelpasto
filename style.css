@@ -1,0 +1,52 @@
+/* Reinicia los márgenes y el padding para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegúrate de que body ocupe todo el espacio disponible */
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Evita las barras de desplazamiento */
+}
+
+canvas {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: #d5e8ba;
+
+}
+
+a:hover {
+    color: #94fd00;
+}
+
+p {
+    margin: 5px 0;
+}
+
+.credits {
+    top: 30px;
+    right: 30px;
+    position: absolute;
+    color: #94fd00;
+    display: flex;
+    font-size: 20px;
+    flex-direction: row;
+}
+
+#pasto {
+    background-color: rgb(148, 253, 0);
+    padding: 0;
+    margin: 0;
+}
