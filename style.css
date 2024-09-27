@@ -35,6 +35,11 @@ p {
     margin: 5px 0;
 }
 
+::selection {
+    background-color: transparent;
+    display: none;
+}
+
 .credits {
     top: 30px;
     right: 30px;
