@@ -1,2 +1,2 @@
 # tocaelpasto
-Práctica de HTML y Javascript usando canvas y eventos del cursor (onClick)
+La vida a veces puede ser demasiado estresante, respira un poco y toca el pasto, ahora puedes hacerlo también en línea ✨
